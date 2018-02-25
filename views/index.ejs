@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="FaceTracking">
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.6/css/highcharts.css" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  <!-- <script src="/lib/highcharts/highcharts.js"></script> -->
+  <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.6/js/highstock.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/lib/angularjs/angular.min.js"></script>
+  <script src="//www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+  <script src="//cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="/javascripts/home.js"></script>
+
+</head>
+
+<body ng-controller="shareController">
+  <div class="col-xs-6">
+    <div>
+      {{ series }}
+    </div>
+    <div id="chart"></div>
+  </div>
+
+  <div class="col-xs-6 result" style="font-size:20px; font-weight:bold"></div>
+  <script type="text/javascript" src="/javascripts/home.js"></script>
+</body>
+
+</html>
