@@ -56,7 +56,7 @@
     ##########################################################
     
   PreInstall:
-    - echo "Begin PreInstall"
+    # - echo "Begin PreInstall"
     ##########################################################
     # The PreInstall: Section occurs before Install
     # 
@@ -80,7 +80,7 @@
     ##########################################################
 
   PostInstall:
-    - echo "Begin PostInstall"
+    # - echo "Begin PostInstall"
     ##########################################################
     # The PostInstall: Section occurs after Install
     #
@@ -96,7 +96,7 @@
     ##########################################################
 
   Exec:
-    - echo "Begin Exec"
+    # - echo "Begin Exec"
     ##########################################################
     # The Exec: Section executes the application
     # 
